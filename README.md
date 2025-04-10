@@ -4,6 +4,7 @@
 # 需要安装的python库
 1. openpyxl(3.1.5)
 2. torch(1.10.1) & transformers(4.40.0) (如果不安装transformers库，请将脚本choose_ad.py中第三行的use_NLP设置为0，此时使用使用随机筛选代替语义相似度筛选)
+
 注：括号内为作者使用的python库版本
 
 # 代码运行
