@@ -369,7 +369,7 @@ class visitor_register_usr(tk.Frame):
         for i in range(2, len(list0)):
             list.append(list0[i])
         print(list)
-        ttk.Label(frame_center_1, text="广告投放需求类型:").grid(row=1, column=0, sticky=tk.W, pady=5)
+        ttk.Label(frame_center_1, text="基础信息选择:").grid(row=1, column=0, sticky=tk.W, pady=5)
         need_combobox = ttk.Combobox(
             frame_center_1,
             values=list,
@@ -378,7 +378,7 @@ class visitor_register_usr(tk.Frame):
         )
         need_combobox.grid(row=1, column=1, padx=10, pady=5)
 
-        ttk.Label(frame_center_1, text="广告投放需求输入").grid(row=2, column=0, sticky=tk.W, pady=5)
+        ttk.Label(frame_center_1, text="基础信息输入").grid(row=2, column=0, sticky=tk.W, pady=5)
         need_entry = ttk.Entry(frame_center_1, width=10)
         need_entry.grid(row=2, column=1, padx=10, pady=5)
 
